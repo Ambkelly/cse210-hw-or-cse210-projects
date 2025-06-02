@@ -2,14 +2,17 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-       Console.Write("What is your first name? ");
-        string first_name = Console.ReadLine();
+        // First name
+        Console.Write("What is your first name? ");
+        string firstName = Console.ReadLine();
 
+        //Last name
         Console.Write("What is your last name? ");
-        string last_name = Console.ReadLine();
+        string lastName = Console.ReadLine();
 
-        Console.WriteLine($"Your name is {first_name} {last_name}");
+        // Output
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}.");
     }
 }
